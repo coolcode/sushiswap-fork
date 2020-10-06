@@ -1,0 +1,17 @@
+{
+  "name": "sushiswap-fork",
+  "version": "1.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "truffle": "^5.1.41",
+    "truffle-flattener": "^1.4.4"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "truffle test",
+    "test-sushibar": "truffle test test/SushiBar.test.js"
+  },
+  "license": "GPL-3.0-or-later"
+}
